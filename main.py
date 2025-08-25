@@ -532,8 +532,8 @@ div.ellipsis {{
 
 
 async def main():
-    username = os.getenv("GITHUB_ACTOR", username)
-    access_token = os.getenv("ACCESS_TOKEN", access_token)
+    username = os.getenv("GITHUB_ACTOR")
+    access_token = os.getenv("ACCESS_TOKEN")
 
     if (
         username == "<username>"
